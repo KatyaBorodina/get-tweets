@@ -1,0 +1,81 @@
+* {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.page-title {
+    display: block;
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: #0084B4;
+    border-radius: 0 0 10px 10px;
+}
+
+.tweets {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.tweet {
+    overflow: hidden;
+    margin: 0 0 50px 0;
+}
+
+.col1 {
+    width: 19%;
+    float: left;
+}
+
+.col2 {
+    width: 80%;
+    float: left;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-img {
+    width: 60px;
+}
+
+a {
+    color: #0084B4;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: #2B7BB9;
+}
+
+.search-tweets {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+#search {
+    height: 35px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+
+.user-error {
+    width: 50%;
+    margin: 0 auto;
+    color: red;
+    display: none;
+}
